@@ -11,6 +11,7 @@ DB = ActiveRecord::Base.establish_connection(
   :database => "./db/dogs.db"
 )
 
+
 DB = ActiveRecord::Base.connection
 
 if ENV["ACTIVE_RECORD_ENV"] == "test"
